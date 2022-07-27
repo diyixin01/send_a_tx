@@ -107,6 +107,30 @@
 
 
 
+# 交易解析
+
+下图中两个交易分属两个区块，中间隔了两个区块，B转给C的这个交易的BTC的来源是前面A转给B的这个交易。所以右边这个交易中的相应输入的txid是左边这个交易的id，右边这个交易中的vout指向的是左边这个交易的对应输出。
 
 
+
+
+![image](https://user-images.githubusercontent.com/75195549/181304030-7ae06644-329a-4bd8-8257-8bef356a7ac2.png)
+
+
+
+# 自写脚本
+
+
+我们可以使用这个脚本进行transaction的创建和发送
+
+我们首先在虚拟机中运行文件
+
+cd tx_sender
+
+
+npm install
+
+
+node init.js
+即可进行节点的构建
 
