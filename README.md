@@ -66,10 +66,37 @@
 
 # Parse the input
 
+
+
+
+![image](https://user-images.githubusercontent.com/75195549/181297608-d0740235-aa51-4527-b39f-7fdb6805efc6.png)
+
+
+从上到下分别为：
+
+该输入的"来源交易”的哈希值
+
+该输入对应于"来源交易"中的哪个输出，这里是一个索引值
+
+输入脚本(这里是最简单的形式，即只要给出Signature就行)
+# Parse the output
+
+
+![image](https://user-images.githubusercontent.com/75195549/181297697-678e322b-cf5f-4ebe-bbac-9008ca3b7753.png)
+
+
 从上到下分别为：
 
 
+金额，即转过去多少BTC
 
+序号，表示这个输出在这个交易中的索引
+
+这个输出需要多少个签名才能兑现，有的输出需要多重签名
+
+输出的类型，此处pubkeyhash是公钥的哈希
+
+输出的地址
 
 
 
