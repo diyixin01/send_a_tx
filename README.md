@@ -121,16 +121,10 @@
 # 自写脚本
 
 
-我们可以使用这个脚本进行transaction的创建和发送
-
-我们首先在虚拟机中运行文件
-
-cd tx_sender
+![image](https://user-images.githubusercontent.com/75195549/181306118-1cbbac6b-7b8d-4062-86a6-5cdfd940946e.png)
 
 
-npm install
+其中的网址即为我们上文提到的交易：，两者思路大同小异，就是进行脚本的使用
 
 
-node init.js
-即可进行节点的构建
 
